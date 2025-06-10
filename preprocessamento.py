@@ -3,7 +3,7 @@ import numpy as np
 from sklearn import preprocessing
 
 
-file_path = "https://raw.githubusercontent.com/amandexspeed/Diabetes-IA/b260364770c2f24cae65a1f0ef76dea6f5f6dd5c/treinamento.csv"
+file_path = "https://raw.githubusercontent.com/amandexspeed/Diabetes-IA/refs/heads/main/treinamento.csv"
 
 base_dados = pd.read_csv(file_path, sep=',',encoding='utf-8')
 
